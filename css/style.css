@@ -27,6 +27,21 @@
 img {
   display: block;
 }
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+}
+.logo-web,
+.logo-studio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -268,7 +283,7 @@ img {
 .current {
   color: #2196f3;
 }
-.logo-web {
+/*.logo-web {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -281,7 +296,7 @@ img {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
-}
+}*/
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
