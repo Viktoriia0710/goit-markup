@@ -173,8 +173,13 @@ img {
   border-radius: 4px;
   border: none;
 }
-.color-button:hover {
+.color-button:hover,
+.color-button:focus {
   background-color: #2196f3;
+}
+.color-button:hover,
+.color-button:focus {
+  color: #ffffff;
 }
 .nav-btn:not(:last-child) {
   margin-right: 8px;
@@ -283,20 +288,24 @@ img {
 .current {
   color: #2196f3;
 }
-/*.logo-web {
+.logo-web {
+  font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.logo-studio {
+.logo-studio-two {
+  font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #000000;
-}*/
+  color: #ffffff;
+}
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
@@ -353,7 +362,7 @@ img {
   border: none;
 }
 
-.navigation-button:hover,
+/*.navigation-button:hover,*/
 .navigation-button:focus {
   border: none;
   color: var(--accent-color);
