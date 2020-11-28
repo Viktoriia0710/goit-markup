@@ -29,11 +29,17 @@ body {
 address {
   font-style: normal;
 }
+.header {
+  border: 1px solid #ececec;
+}
+img {
+  display: block;
+}
+
 /*logo header+footer*/
 .current {
   color: var(--color-accent);
 }
-
 .logo-web,
 .logo-studio {
   font-weight: 700;
@@ -59,7 +65,23 @@ address {
 /*end logo header+footer*/
 
 /*header*/
-
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header .container {
+  display: flex;
+}
+.header {
+  padding: 24px 0;
+}
+/* .container .header-nav {
+  display: flex;
+  align-items: center;
+} */
 .header-list {
   font-weight: 500;
   font-size: 14px;
@@ -80,6 +102,7 @@ address {
 /*end-header*/
 
 /* hero */
+
 hero,
 h1 {
   width: 700px;
