@@ -23,12 +23,6 @@ body {
 }
 .hero {
   background-color: #2f303a;
-  height: 600px;
-}
-.footer {
-  background-color: #2f303a;
-  width: 1600px;
-  height: 252px;
 }
 address {
   font-style: normal;
@@ -63,7 +57,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-white-color);
 }
-
 /*end logo header+footer*/
 
 /*header*/
@@ -100,7 +93,6 @@ img {
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
-
 .list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -224,23 +216,20 @@ img {
 /* end what we are doing */
 
 /* our team */
-.section-team .container {
-  display: flex;
-  flex-direction: column;
-}
 .title {
   padding-top: 94px;
 }
 .workers {
   display: flex;
-  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 94px;
 }
 .workers-photo {
-  margin: 15px;
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
+}
+.workers-photo:not(:last-child) {
+  margin-right: 30px;
 }
 .workers-name {
   padding-bottom: 10px;
@@ -272,13 +261,10 @@ img {
 }
 /* end our team */
 /* footer */
-.footer .container {
-  display: flex;
-  flex-direction: column;
-}
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
 .footer-address {
   margin-top: 20px;
@@ -316,6 +302,7 @@ img {
 }
 .section-portfolio {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portfolio-container {
   display: flex;
@@ -325,7 +312,6 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-  padding-bottom: 30px;
 }
 .port-image:nth-child(3n) {
   margin-right: 0px;
